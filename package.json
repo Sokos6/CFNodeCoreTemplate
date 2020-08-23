@@ -1,0 +1,18 @@
+{
+  "name": "cfnodecoretemplate",
+  "version": "1.0.0",
+  "description": "Code Frequency Starter Node Starter Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Will Sokolowski",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "nodemon": "^2.0.4"
+  }
+}
